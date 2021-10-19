@@ -11,3 +11,21 @@
     writeFile "myFile.txt" text
     fileText <- readFile "myFile.txt"
     putStr fileText
+
+
+
+
+
+Нова програма
+
+
+    readI x = read x:: Integer
+
+    main = do
+    input <- getLine
+    let x = readI input
+    input <- getLine
+    let y = readI input
+    print(x + y)
+    
+   
